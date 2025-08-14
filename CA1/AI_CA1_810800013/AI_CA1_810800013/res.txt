@@ -1,0 +1,350 @@
+Running test:
+ [[1 1 1]
+ [1 1 1]
+ [1 0 0]]
+
+Solving with BFS:
+Solution: [(0, 2), (1, 0)]
+Nodes visited: 26
+
+Solving with IDS:
+Solution: [(0, 2), (1, 0)]
+Nodes visited: 37
+
+Solving with A*(heuristic1):
+Solution: [(1, 0), (0, 2)]
+Nodes visited: 4
+
+Solving with A*(heuristic2):
+Solution: [(1, 0), (0, 2)]
+Nodes visited: 8
+
+Solving with weighted A*(weighted_heuristic1, alpha = 2):
+Solution: [(1, 0), (0, 2)]
+Nodes visited: 6
+
+Solving with weighted A*(weighted_heuristic1, alpha = 5):
+Solution: [(1, 0), (0, 2)]
+Nodes visited: 6
+
+Solving with weighted A*(weighted_heuristic2, alpha = 2):
+Solution: [(1, 0), (0, 2)]
+Nodes visited: 4
+
+Solving with weighted A*(weighted_heuristic2, alpha = 5):
+Solution: [(1, 0), (0, 2)]
+Nodes visited: 4
+
+-------------------------------
+
+Running test:
+ [[1 1 0]
+ [1 0 0]
+ [1 1 1]]
+
+Solving with BFS:
+Solution: [(0, 0), (0, 1), (1, 0), (1, 1), (1, 2)]
+Nodes visited: 272
+
+Solving with IDS:
+Solution: [(0, 0), (1, 1), (1, 2), (0, 1), (1, 0)]
+Nodes visited: 673
+
+Solving with A*(heuristic1):
+Solution: [(1, 1), (1, 2), (0, 1), (1, 0), (0, 0)]
+Nodes visited: 79
+
+Solving with A*(heuristic2):
+Solution: [(1, 1), (1, 2), (0, 1), (1, 0), (0, 0)]
+Nodes visited: 213
+
+Solving with weighted A*(weighted_heuristic1, alpha = 2):
+Solution: [(1, 0), (1, 1), (1, 2), (0, 1), (0, 0)]
+Nodes visited: 52
+
+Solving with weighted A*(weighted_heuristic1, alpha = 5):
+Solution: [(2, 0), (0, 1), (1, 2), (2, 2), (2, 1), (2, 0), (1, 1), (2, 2), (2, 1), (1, 0), (0, 0)]
+Nodes visited: 145
+
+Solving with weighted A*(weighted_heuristic2, alpha = 2):
+Solution: [(1, 0), (1, 1), (1, 2), (0, 1), (0, 0)]
+Nodes visited: 126
+
+Solving with weighted A*(weighted_heuristic2, alpha = 5):
+Solution: [(1, 1), (1, 2), (0, 1), (1, 0), (0, 0)]
+Nodes visited: 79
+
+-------------------------------
+
+Running test:
+ [[0 0 1]
+ [0 1 1]
+ [1 0 0]]
+
+Solving with BFS:
+Solution: [(0, 0), (0, 2), (1, 0)]
+Nodes visited: 54
+
+Solving with IDS:
+Solution: [(0, 0), (0, 2), (1, 0)]
+Nodes visited: 115
+
+Solving with A*(heuristic1):
+Solution: [(1, 0), (0, 0), (0, 2)]
+Nodes visited: 15
+
+Solving with A*(heuristic2):
+Solution: [(1, 0), (0, 0), (0, 2)]
+Nodes visited: 29
+
+Solving with weighted A*(weighted_heuristic1, alpha = 2):
+Solution: [(0, 2), (1, 0), (0, 0)]
+Nodes visited: 11
+
+Solving with weighted A*(weighted_heuristic1, alpha = 5):
+Solution: [(0, 2), (1, 0), (0, 0)]
+Nodes visited: 11
+
+Solving with weighted A*(weighted_heuristic2, alpha = 2):
+Solution: [(1, 0), (0, 0), (0, 2)]
+Nodes visited: 15
+
+Solving with weighted A*(weighted_heuristic2, alpha = 5):
+Solution: [(1, 0), (0, 0), (0, 2)]
+Nodes visited: 15
+
+-------------------------------
+
+Running test:
+ [[1 0 0 0]
+ [0 0 0 1]
+ [1 1 0 0]
+ [0 0 0 0]]
+
+Solving with BFS:
+Solution: [(0, 2), (0, 3), (1, 0), (1, 1)]
+Nodes visited: 1457
+
+Solving with IDS:
+Solution: [(0, 2), (0, 3), (1, 0), (1, 1)]
+Nodes visited: 903
+
+Solving with A*(heuristic1):
+Solution: [(1, 0), (1, 1), (0, 2), (0, 3)]
+Nodes visited: 11
+
+Solving with A*(heuristic2):
+Solution: [(1, 0), (1, 1), (0, 2), (0, 3)]
+Nodes visited: 195
+
+Solving with weighted A*(weighted_heuristic1, alpha = 2):
+Solution: [(1, 0), (1, 1), (0, 2), (0, 3)]
+Nodes visited: 7
+
+Solving with weighted A*(weighted_heuristic1, alpha = 5):
+Solution: [(1, 0), (1, 1), (0, 2), (0, 3)]
+Nodes visited: 5
+
+Solving with weighted A*(weighted_heuristic2, alpha = 2):
+Solution: [(1, 0), (1, 1), (0, 2), (0, 3)]
+Nodes visited: 41
+
+Solving with weighted A*(weighted_heuristic2, alpha = 5):
+Solution: [(1, 0), (1, 1), (0, 2), (0, 3)]
+Nodes visited: 11
+
+-------------------------------
+
+Running test:
+ [[0 0 0 1]
+ [0 1 1 0]
+ [0 1 1 0]
+ [1 1 1 0]]
+
+Solving with BFS:
+Solution: [(0, 3), (1, 2), (3, 1)]
+Nodes visited: 439
+
+Solving with IDS:
+Solution: [(0, 0), (0, 1), (0, 0), (0, 3), (0, 1), (1, 2), (3, 1)]
+Nodes visited: 9117
+
+Solving with A*(heuristic1):
+Solution: [(3, 1), (1, 2), (0, 3)]
+Nodes visited: 4
+
+Solving with A*(heuristic2):
+Solution: [(3, 1), (1, 2), (0, 3)]
+Nodes visited: 23
+
+Solving with weighted A*(weighted_heuristic1, alpha = 2):
+Solution: [(3, 1), (1, 2), (0, 3)]
+Nodes visited: 4
+
+Solving with weighted A*(weighted_heuristic1, alpha = 5):
+Solution: [(3, 1), (1, 2), (0, 3)]
+Nodes visited: 4
+
+Solving with weighted A*(weighted_heuristic2, alpha = 2):
+Solution: [(3, 1), (1, 2), (0, 3)]
+Nodes visited: 6
+
+Solving with weighted A*(weighted_heuristic2, alpha = 5):
+Solution: [(3, 1), (1, 2), (0, 3)]
+Nodes visited: 4
+
+-------------------------------
+
+Running test:
+ [[0 1 0 0]
+ [1 0 1 0]
+ [0 0 1 0]
+ [1 0 0 0]]
+
+Solving with BFS:
+Solution: [(1, 1), (2, 1), (3, 0)]
+Nodes visited: 559
+
+Solving with IDS:
+Solution: [(1, 1), (3, 0), (0, 1), (2, 1), (0, 1)]
+Nodes visited: 18382
+
+Solving with A*(heuristic1):
+Solution: [(1, 1), (2, 1), (3, 0)]
+Nodes visited: 5
+
+Solving with A*(heuristic2):
+Solution: [(1, 1), (2, 1), (3, 0)]
+Nodes visited: 39
+
+Solving with weighted A*(weighted_heuristic1, alpha = 2):
+Solution: [(1, 1), (2, 1), (3, 0)]
+Nodes visited: 5
+
+Solving with weighted A*(weighted_heuristic1, alpha = 5):
+Solution: [(1, 1), (2, 1), (3, 0)]
+Nodes visited: 5
+
+Solving with weighted A*(weighted_heuristic2, alpha = 2):
+Solution: [(1, 1), (2, 1), (3, 0)]
+Nodes visited: 7
+
+Solving with weighted A*(weighted_heuristic2, alpha = 5):
+Solution: [(1, 1), (2, 1), (3, 0)]
+Nodes visited: 5
+
+-------------------------------
+
+Running test:
+ [[0 0 0 0 1]
+ [1 0 0 1 0]
+ [0 0 0 1 1]
+ [0 1 0 1 1]
+ [1 1 0 1 0]]
+
+Time limit of 180 seconds exceeded for BFS
+
+Time limit of 180 seconds exceeded for IDS
+
+Solving with A*(heuristic1):
+Solution: [(2, 4), (4, 0), (0, 3), (1, 3), (1, 2), (3, 2), (4, 2), (3, 1), (1, 1), (2, 2), (2, 1), (1, 0), (0, 0)]
+Nodes visited: 29063
+
+Time limit of 180 seconds exceeded for A*(heuristic2)
+
+Solving with weighted A*(weighted_heuristic1, alpha = 2):
+Solution: [(3, 3), (1, 4), (3, 1), (3, 0), (2, 1), (1, 1), (2, 2), (1, 3), (0, 2), (0, 3), (0, 4), (2, 4), (3, 3), (3, 4), (4, 4)]
+Nodes visited: 5123
+
+Solving with weighted A*(weighted_heuristic1, alpha = 5):
+Solution: [(2, 3), (4, 1), (4, 3), (3, 4), (1, 4), (1, 3), (2, 2), (3, 1), (4, 0), (3, 0), (2, 0), (0, 2), (1, 1), (0, 1), (0, 0)]
+Nodes visited: 260
+
+Time limit of 180 seconds exceeded for weighted A*(weighted_heuristic2, alpha = 2)
+
+Solving with weighted A*(weighted_heuristic2, alpha = 5):
+Solution: [(2, 4), (4, 0), (0, 3), (1, 3), (1, 2), (3, 2), (4, 2), (3, 1), (1, 1), (2, 2), (2, 1), (1, 0), (0, 0)]
+Nodes visited: 29063
+
+-------------------------------
+
+Running test:
+ [[1 0 1 0 1]
+ [1 0 0 1 1]
+ [0 1 0 0 0]
+ [1 0 0 1 0]
+ [1 1 0 0 1]]
+
+Time limit of 180 seconds exceeded for BFS
+
+Time limit of 180 seconds exceeded for IDS
+
+Solving with A*(heuristic1):
+Solution: [(4, 0), (1, 4), (3, 4), (0, 1), (1, 1), (2, 4), (1, 3), (1, 4), (0, 4)]
+Nodes visited: 130
+
+Solving with A*(heuristic2):
+Solution: [(0, 1), (1, 1), (4, 0), (3, 4), (2, 4), (1, 3), (0, 4)]
+Nodes visited: 22819
+
+Solving with weighted A*(weighted_heuristic1, alpha = 2):
+Solution: [(4, 0), (1, 4), (3, 4), (0, 1), (1, 1), (2, 4), (1, 3), (1, 4), (0, 4)]
+Nodes visited: 43
+
+Solving with weighted A*(weighted_heuristic1, alpha = 5):
+Solution: [(4, 0), (0, 3), (0, 0), (0, 4), (3, 4), (2, 4), (0, 4), (0, 2), (1, 1), (0, 1), (0, 0), (0, 2), (1, 3), (0, 3), (0, 4)]
+Nodes visited: 54
+
+Solving with weighted A*(weighted_heuristic2, alpha = 2):
+Solution: [(4, 0), (0, 1), (1, 1), (3, 4), (2, 4), (1, 3), (0, 4)]
+Nodes visited: 1023
+
+Solving with weighted A*(weighted_heuristic2, alpha = 5):
+Solution: [(4, 0), (1, 4), (3, 4), (0, 1), (1, 1), (2, 4), (1, 3), (1, 4), (0, 4)]
+Nodes visited: 130
+
+-------------------------------
+
+Running test:
+ [[1 0 0 0 0]
+ [0 0 1 0 0]
+ [1 0 1 0 0]
+ [0 1 0 0 0]
+ [0 0 0 0 0]]
+
+Solving with BFS:
+Solution: [(0, 0), (1, 1), (2, 1)]
+Nodes visited: 436
+
+Solving with IDS:
+Solution: [(0, 0), (1, 1), (2, 1)]
+Nodes visited: 895
+
+Solving with A*(heuristic1):
+Solution: [(2, 1), (1, 1), (0, 0)]
+Nodes visited: 4
+
+Solving with A*(heuristic2):
+Solution: [(2, 1), (1, 1), (0, 0)]
+Nodes visited: 34
+
+Solving with weighted A*(weighted_heuristic1, alpha = 2):
+Solution: [(2, 1), (1, 1), (0, 0)]
+Nodes visited: 4
+
+Solving with weighted A*(weighted_heuristic1, alpha = 5):
+Solution: [(2, 1), (1, 1), (0, 0)]
+Nodes visited: 4
+
+Solving with weighted A*(weighted_heuristic2, alpha = 2):
+Solution: [(2, 1), (1, 1), (0, 0)]
+Nodes visited: 6
+
+Solving with weighted A*(weighted_heuristic2, alpha = 5):
+Solution: [(2, 1), (1, 1), (0, 0)]
+Nodes visited: 4
+
+-------------------------------
+
+
+
